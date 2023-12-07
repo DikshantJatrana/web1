@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color:#007185 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width:116px;
+}
+
+.logo{
+    background-image: url("/Users/dikshantjatrana/Downloads/cs50/web_development/Amazon Clone (Resources)/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.address{
+    height: 50px;
+}
+
+.add1{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left:15px;
+    margin-top: 10px;
+}
+.add2{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.loc{
+    display: flex;
+}
+
+.search{
+    height: 40px;
+    width: 680px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+.search:hover{
+    border: 2px solid rgb(248, 137, 248);
+}
+.sselect{
+    background-color: #f3f3f3;
+    width: 55px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+}
+.sinput{
+    width: 100%;
+    border: none;
+    font-size: 1.1rem;
+    outline: none;
+}
+.slogo{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #ffdfd7;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.flag{
+    height: 50px;
+    width:74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ind{
+    width: 24px;
+    height: 17.5px;
+    background-image: url("india.png");
+    background-size: cover;
+}
+.txtind{
+    font-size: 0.9rem;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.sign{
+    height: 50px;
+    width: 132px;
+}
+.order{
+    height: 50px;
+    width: 78px;
+}
+span{
+    margin-left: 3px;
+    font-size: 0.7rem;
+    vertical-align: -5px;
+}
+.nav-text{
+    margin-left: 3px;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.cart i{
+    font-size: 30px;
+}
+.cart{
+    height: 50px;
+    width: 85px;
+    font-size:0.9rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pannel{
+    height: 35px;
+    background-color: #185851;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu{
+    height: 31px;
+    width: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all{
+    margin-left: 4px;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.pannel-ops{
+    height: 33.5px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.p{
+    display: flex;
+    align-items: center;
+    height:31px;
+    margin-left: 7.5px;
+}
+
+.pannel-deal{
+    display: flex;
+    align-items: center;
+    height: 31px;
+    font-size: 0.956rem;
+    font-weight: 800;
+}
