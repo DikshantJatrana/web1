@@ -240,6 +240,7 @@ span{
     justify-content: space-evenly;
     background-color: rgb(218, 222, 222);
     flex-wrap: wrap;
+    padding-bottom:20px;
 }
 
 .box{
@@ -304,5 +305,115 @@ h2{
 #b8{
     background-image: url("/Users/dikshantjatrana/Downloads/cs50/web_development/Amazon Clone (Resources)/box8_image.jpg");
     background-size: cover;
+}
+
+/* footer css code start from here */
+hr{
+    margin: 27px 0px 10px 0px;
+}
+
+.fpannel1{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00453e;
+    color: white;
+    font-size: 0.93rem;
+    font-weight: 700;
+}
+.fpannel2{
+    height: 200px;
+    display: flex;
+    background-color: #185851;
+    color: white;
+    justify-content: space-evenly;
+    padding-top: 35px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
+ul p{
+    margin-bottom: 6.70px;
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+ul a{
+    color: #dddddd;
+    font-size: 0.75rem;
+    text-decoration: none;
+    margin-bottom: 1.90px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.fpannel3{
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    background-color:#00453e;
+    align-items: center;
+}
+
+.flogo{
+    height: 52px;
+    width: 120px;
+    background-image: url("/Users/dikshantjatrana/Downloads/cs50/web_development/Amazon Clone (Resources)/amazon_logo.png");
+    background-size: cover;
+    margin-right: 30px;
+}
+.fb{
+    display: flex;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: white;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+.fb p{
+    margin-left: 4px;
+}
+.f-lan{
+    height: 35px;
+    width: 117px;
+}
+.f-rupee{
+    height: 35px;
+    width: 175px;
+}
+.f-country{
+    height: 35px;
+    width: 142px;
+    display: flex;
+}
+.ind{
+    margin-bottom: 5px;
+}
+
+.fpannel4{
+    background-color: #185851;
+    text-align: center;
+}
+.pages{
+    display: flex;
+    justify-content: center;
+}
+.pages a{
+    color: #dddddd;
+    font-size: 0.75rem;
+    text-decoration: none;
+    margin-right: 13px;
+}
+.fpannel4 p{
+    color: #dddddd;
+    font-size: 0.75rem;
+    text-align: center;
 }
 
